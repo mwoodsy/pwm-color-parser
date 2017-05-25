@@ -1,0 +1,22 @@
+{
+  "name": "pmwcolorparser",
+  "version": "1.0.0",
+  "description": "JavaScript parser for PWM color values",
+  "main": "pwmcolorparser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwoodsy/pwm-color-parser.git"
+  },
+  "author": "Mike Woodman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mwoodsy/pwm-color-parser/issues"
+  },
+  "homepage": "https://github.com/mwoodsy/pwm-color-parser#readme",
+  "dependencies": {
+    "csscolorparser": "1.0.3"
+  }
+}
