@@ -1,6 +1,6 @@
 {
   "name": "pwmcolorparser",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "JavaScript parser for PWM color values",
   "main": "pwmcolorparser.js",
   "scripts": {
@@ -18,5 +18,11 @@
   "homepage": "https://github.com/mwoodsy/pwm-color-parser#readme",
   "dependencies": {
     "csscolorparser": "1.0.3"
-  }
+  },
+   "keywords": [
+    "pwm",
+    "color",
+    "parser",
+    "pulse width modulation"
+  ]
 }
