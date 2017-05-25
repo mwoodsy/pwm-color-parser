@@ -4,6 +4,9 @@ var cssColor = require('csscolorparser');
 function parseColor(color){
      if (typeof color !== 'string') 
 		throw new TypeError('Value must be a string');
+    
+    if (color[0] === '#') 
+        return parseHex(color); 
 
     var rgb = cssColor.parseCSSColor(color);
 

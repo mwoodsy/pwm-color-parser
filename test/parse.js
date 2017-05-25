@@ -87,5 +87,12 @@ describe("PWM Color Code Converter", function() {
       assert.deepEqual(purple, [50, 0, 50, 1]);
       assert.deepEqual(pink, [100, 75, 80, 1]);      
     });
+    it("converts the colors from hex", function() {
+      var red   = PwmColorParser.parseColor('#F00');
+      var blue = PwmColorParser.parseColor('#0000FF');
+      
+      assert.deepEqual(red, [100, 0, 0]);
+      assert.deepEqual(blue, [0, 0, 100]);    
+    });
   });
 });
