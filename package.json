@@ -1,5 +1,5 @@
 {
-  "name": "pmwcolorparser",
+  "name": "pwmcolorparser",
   "version": "1.0.0",
   "description": "JavaScript parser for PWM color values",
   "main": "pwmcolorparser.js",
