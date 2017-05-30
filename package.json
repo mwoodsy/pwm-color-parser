@@ -24,5 +24,8 @@
     "color",
     "parser",
     "pulse width modulation"
-  ]
+  ],
+  "devDependencies": {
+    "mocha": "^2.3.0"
+  }
 }
